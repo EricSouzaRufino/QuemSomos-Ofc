@@ -1,0 +1,252 @@
+/* corpo da pagina */
+body{
+    background-image:linear-gradient(165deg,#d7eafd,#c5dff8,#bcd8f5,#b8d7f5c7, #b4e6fa,#a2dff7,#90cfec,#74b5d3, #4a8db7,#4a8db7, #3b7197);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+    background-color: #b4e6fa, #3b7197;
+    /* background-image: url(/img/imgback.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+/* barra de navegação */
+.nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+    background-color: white;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+}
+/* tirar o sublinhado das tag link "a" */
+.nav a{
+   text-decoration: none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   font-size: 120%;
+   color: #3b7197;
+   justify-content: space-around;
+}
+/* estilizando o botao do "Entre Aqui" */
+.nav button{
+    border-radius: 40px;
+    background-color: #a2dff7;
+    padding: 15px;
+}
+/*  hover nos link */
+a:hover{
+    color: black;
+}
+/* ajeitando o tamanho da imagem(logo) */
+.nav img{
+    width: 50%;
+}
+/* conteudo principal da pagina */
+.container-first{
+    /* border: 4px solid red; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    margin-top: 20px;
+}
+/* Estilizando o 1° Conteudo aparente(balao 1) */
+.content-title{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 40px;
+    width: 50%;
+    padding: 25px;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+/* Alinhar o Titulo(titulo do balao 1) */
+.content-title h1{
+    text-align: center;
+    width: 100%;
+    color: #3b7197;
+}
+/*  Alinhar o Texto(paragrafo do balao 1) */
+.content-title p{
+    text-align: center; 
+}
+/* div da img central, alinhando, responsividade, dimensao */
+.container-second{
+    /* border: greenyellow solid 4px; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 768px;
+    max-width: 1920px;
+    margin: auto;
+    margin-top: 20px;
+}
+/* img central estilizando */
+.container-second img{
+    /* border: 3px solid rgb(17, 0, 255); */
+    width: 80%;
+}
+/* Alinhando a Container3, Responsividade e Posicionamento   */
+.container-three{
+    /* border: 4px solid violet; */
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    margin-top: 20px;
+}
+/*  div da img first bottom, alinhando, responsividade e dimensao */
+.first-image{
+    /* border: 3px solid orangered; */
+    width: 67%;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+}
+/* estilizando img first bottom */
+.first-image img{
+    /* border: 3px solid rgb(0, 183, 255); */
+    width: 100%;
+     
+}
+/* div do balao 2(balao entre as imagens na parte de baixo da pagina) fazendo alinhamento, responsividade e dimensao */
+.text-middle{
+    /* border: 2px solid salmon; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+/* estilizando o texto do balao, colocando fundo, fontes etc... continuada da responsividade e dimensoes */
+.text-middle p{
+    /* border: 2px solid aqua; */
+    background-color: white;
+    width: 50%;
+    max-width: 1920px;
+    margin: auto;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 40px;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid black;
+}
+/* div da img end bottom, alinhando responsividade e dimensao */
+.end-image{
+    /* border: 3px solid orangered; */
+    width: 65%;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+}
+/* estilizando img end bottom */
+.end-image img{
+    /* border: 3px solid rgb(0, 183, 255); */
+    width: 100%;    
+}
+
+footer{
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.footerlogo{
+    list-style-type: none;
+}
+
+.servpv{
+    display: flex;
+    flex-direction: column;
+    color: #3b7197;
+    font-size: 25px;
+    position: relative;
+    
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerpv{
+    height: 300px;
+}
+
+.servifotter{
+    position: relative;
+    right: 10px;
+}
+
+.cons{
+    font-size: 25px;
+}
+
+.exa{
+    font-size: 25px;
+}
+
+.cir{
+    font-size: 25px;
+}
+
+.pro{
+    font-size: 25px;
+}
+
+.endereço{
+    list-style: url(./img/mapsicon.png);
+    text-align: center;
+    color: #3b7197;
+}
+
+.avsapo{
+    position: relative;
+    bottom: 15px;
+}
+
+
+.wpp{
+    list-style: url(./img/wppicon.png);
+    color: #3F3F3F;
+    font-size: 20px;
+    color: #3b7197;
+    position: relative;
+}
+
+.num{
+    position: relative;
+    bottom: 8px;
+}
+
+.fim{
+    text-align: center;
+    background-color: white;
+}
+
+.marcar{
+    position: relative;
+    left: 67px;
+    font-size: 20px;
+    height: 100px;
+    width: 200px;
+    background-color: #d7eafd;
+    color: #3b7197;
+    border: none;
+    border-radius: 30px;
+}
